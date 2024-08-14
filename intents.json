@@ -1,0 +1,242 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day!",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure!"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, I can't understand you.",
+                "Please give me more info.",
+                "Not sure I understand."
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough.",
+                "I ate a clock yesterday, it was very time-consuming.",
+                "What did the traffic light say to the car? 'Don't look now, I'm changing.'",
+                "How does a penguin build a house? Igloos it together."
+            ]
+        },
+        {
+            "tag": "identity",
+            "patterns": [
+                "Who are you",
+                "What are you"
+            ],
+            "responses": [
+                "I am JARVIS, a Deep-Learning based Virtual Assistant."
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "What is the date",
+                "date",
+                "time",
+                "Tell me the date",
+                "day",
+                "What day is it today"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup",
+                "How you doing"
+            ],
+            "responses": [
+                "All good. What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "That's funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh!"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "Who designed you",
+                "Who programmed you"
+            ],
+            "responses": [
+                "I was made by Mr. Aayush, and the project was guided by Abhay Sir."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                "You are dumb",
+                "Shut up",
+                "Idiot"
+            ],
+            "responses": [
+                "Well, that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "What are you doing",
+                "What are you up to"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "ok",
+                "yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "You are the best",
+                "You are great",
+                "You are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicety",
+            "patterns": [
+                "It was nice talking to you",
+                "Good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "Ok"
+            ]
+        },
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "I am good",
+                "I'm good",
+                "I am fine",
+                "I'm fine",
+                "good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "How old are you",
+                "When were you made",
+                "What is your age"
+            ],
+            "responses": [
+                "I was made in 2024, if that's what you're asking!"
+            ]
+        },
+        {
+            "tag": "close_application",
+            "patterns": [
+                "Close [application name]",
+                "Shut down [application name]",
+                "Exit [application name]",
+                "Stop [application name]",
+                "Terminate [application name]"
+            ],
+            "responses": [
+                "Closing [application name] for you."
+            ]
+        }
+    ]
+}
